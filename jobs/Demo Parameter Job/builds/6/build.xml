@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>name</name>
+          <value>Sandeep Sharma Test 1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>readyToBuild</name>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>deployTo</name>
+          <value>Test</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.PasswordParameterValue>
+          <name>password</name>
+          <value>{AQAAABAAAAAQcYaJFl3hCac7XEynxrcWFda+VkA9vnlY4SxI+cYnc0A=}</value>
+        </hudson.model.PasswordParameterValue>
+        <hudson.model.TextParameterValue>
+          <name>multiLineStringParam</name>
+          <value>This is Sandeep Sharma not time to change this
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma</value>
+        </hudson.model.TextParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>name</string>
+        <string>readyToBuild</string>
+        <string>deployTo</string>
+        <string>password</string>
+        <string>multiLineStringParam</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>sandeep</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>124</queueId>
+  <timestamp>1710499425550</timestamp>
+  <startTime>1710499425582</startTime>
+  <result>SUCCESS</result>
+  <duration>926</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/Demo Parameter Job</workspace>
+  <hudsonVersion>2.440.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

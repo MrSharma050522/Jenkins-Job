@@ -1,0 +1,23 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Third
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[Demo Third] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins15043433227454689855.sh
++ echo 'Hello World From Demo Third'
+Hello World From Demo Third
++ ls
++ git clone https://github.com/MrSharma050522/Jenkins-Demo-1.git
+Cloning into 'Jenkins-Demo-1'...
++ ls
+Jenkins-Demo-1
++ cd Jenkins-Demo-1
++ cat index.html
+<html>
+  <body>
+    <h1>This is Sandeep Sharma at Jenkins Demo-1 Repository</h1>
+  </body>
+</html>
++ cat README.md
+# Jenkins-Demo-1Finished: SUCCESS

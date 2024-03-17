@@ -1,0 +1,29 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Parameter Job
+[Demo Parameter Job] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins4233056997844183053.sh
++ echo 'Hello Sir! Sandeep Sharma Test 1'
+Hello Sir! Sandeep Sharma Test 1
++ echo 'Ready to Build: true'
+Ready to Build: true
++ echo 'Deploy to : Test'
+Deploy to : Test
++ echo 'Password to : Thisisapassword'
+Password to : Thisisapassword
++ echo 'MultiLine String Param to : This is Sandeep Sharma not time to change this
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma'
+MultiLine String Param to : This is Sandeep Sharma not time to change this
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+Finished: SUCCESS

@@ -1,0 +1,33 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Fourth
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git init /Users/dp/.jenkins/workspace/Demo Fourth # timeout=10
+Fetching upstream changes from https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/MrSharma050522/Jenkins-Demo-1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MrSharma050522/Jenkins-Demo-1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 75d837a77303140de954514973e7027464f2ffda (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 75d837a77303140de954514973e7027464f2ffda # timeout=10
+Commit message: "Create index.html"
+First time build. Skipping changelog.
+[Demo Fourth] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins1545912166509986810.sh
++ ls
+README.md
+index.html
++ cat index.html
+<html>
+  <body>
+    <h1>This is Sandeep Sharma at Jenkins Demo-1 Repository</h1>
+  </body>
+</html>
++ cat README.md
+# Jenkins-Demo-1Finished: SUCCESS

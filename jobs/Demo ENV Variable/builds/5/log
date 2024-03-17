@@ -1,0 +1,14 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo ENV Variable
+[Demo ENV Variable] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins7898967026901610816.sh
++ name=Deepak
++ echo 'Hello World from ENV Variable'
+Hello World from ENV Variable
++ echo 'Hello Sir Deepak'
+Hello Sir Deepak
++ echo 'Build Id is: 5'
+Build Id is: 5
++ echo 'Job Name is: Demo ENV Variable'
+Job Name is: Demo ENV Variable
+Finished: SUCCESS

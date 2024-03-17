@@ -1,0 +1,108 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo ENV Variable
+[Demo ENV Variable] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins9659581393599138488.sh
++ name=Deepak
++ echo 'Hello World from ENV Variable'
+Hello World from ENV Variable
++ echo 'Hello Sir Deepak'
+Hello Sir Deepak
++ echo 'Build Id is: 8'
+Build Id is: 8
++ echo 'Job Name is: Demo ENV Variable'
+Job Name is: Demo ENV Variable
++ echo 'BRANCH_NAME is: '
+BRANCH_NAME is: 
++ echo 'BRANCH_IS_PRIMARY is: '
+BRANCH_IS_PRIMARY is: 
++ echo 'CHANGE_ID is: '
+CHANGE_ID is: 
++ echo 'CHANGE_URL is: '
+CHANGE_URL is: 
++ echo 'CHANGE_TITLE is: '
+CHANGE_TITLE is: 
++ echo 'CHANGE_AUTHOR is: '
+CHANGE_AUTHOR is: 
++ echo 'CHANGE_AUTHOR_DISPLAY_NAME is: '
+CHANGE_AUTHOR_DISPLAY_NAME is: 
++ echo 'CHANGE_AUTHOR_EMAIL is: '
+CHANGE_AUTHOR_EMAIL is: 
++ echo 'CHANGE_TARGET is: '
+CHANGE_TARGET is: 
++ echo 'CHANGE_BRANCH is: '
+CHANGE_BRANCH is: 
++ echo 'CHANGE_FORK is: '
+CHANGE_FORK is: 
++ echo 'TAG_NAME is: '
+TAG_NAME is: 
++ echo 'TAG_TIMESTAMP is: '
+TAG_TIMESTAMP is: 
++ echo 'TAG_UNIXTIME is: '
+TAG_UNIXTIME is: 
++ echo 'TAG_DATE is: '
+TAG_DATE is: 
++ echo 'JOB_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/display/redirect'
+JOB_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/display/redirect
++ echo 'RUN_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect'
+RUN_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect
++ echo 'RUN_ARTIFACTS_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=artifacts'
+RUN_ARTIFACTS_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=artifacts
++ echo 'RUN_CHANGES_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=changes'
+RUN_CHANGES_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=changes
++ echo 'RUN_TESTS_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=tests'
+RUN_TESTS_DISPLAY_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/display/redirect?page=tests
++ echo 'CI is: true'
+CI is: true
++ echo 'BUILD_NUMBER is: 8'
+BUILD_NUMBER is: 8
++ echo 'BUILD_ID is: 8'
+BUILD_ID is: 8
++ echo 'BUILD_DISPLAY_NAME is: #8'
+BUILD_DISPLAY_NAME is: #8
++ echo 'JOB_NAME is: Demo ENV Variable'
+JOB_NAME is: Demo ENV Variable
++ echo 'JOB_BASE_NAME is: Demo ENV Variable'
+JOB_BASE_NAME is: Demo ENV Variable
++ echo 'BUILD_TAG is: jenkins-Demo ENV Variable-8'
+BUILD_TAG is: jenkins-Demo ENV Variable-8
++ echo 'EXECUTOR_NUMBER is: 1'
+EXECUTOR_NUMBER is: 1
++ echo 'NODE_NAME is: built-in'
+NODE_NAME is: built-in
++ echo 'NODE_LABELS is: built-in'
+NODE_LABELS is: built-in
++ echo 'WORKSPACE is: /Users/dp/.jenkins/workspace/Demo ENV Variable'
+WORKSPACE is: /Users/dp/.jenkins/workspace/Demo ENV Variable
++ echo 'WORKSPACE_TMP is: /Users/dp/.jenkins/workspace/Demo ENV Variable@tmp'
+WORKSPACE_TMP is: /Users/dp/.jenkins/workspace/Demo ENV Variable@tmp
++ echo 'JENKINS_HOME is: /Users/dp/.jenkins'
+JENKINS_HOME is: /Users/dp/.jenkins
++ echo 'JENKINS_URL is: http://jenkins.local:8080/'
+JENKINS_URL is: http://jenkins.local:8080/
++ echo 'BUILD_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/'
+BUILD_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/8/
++ echo 'JOB_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/'
+JOB_URL is: http://jenkins.local:8080/job/Demo%20ENV%20Variable/
++ echo 'GIT_COMMIT is: '
+GIT_COMMIT is: 
++ echo 'GIT_PREVIOUS_COMMIT is: '
+GIT_PREVIOUS_COMMIT is: 
++ echo 'GIT_PREVIOUS_SUCCESSFUL_COMMIT is: '
+GIT_PREVIOUS_SUCCESSFUL_COMMIT is: 
++ echo 'GIT_BRANCH is: '
+GIT_BRANCH is: 
++ echo 'GIT_LOCAL_BRANCH is: '
+GIT_LOCAL_BRANCH is: 
++ echo 'GIT_CHECKOUT_DIR is: '
+GIT_CHECKOUT_DIR is: 
++ echo 'GIT_URL is: '
+GIT_URL is: 
++ echo 'GIT_COMMITTER_NAME is: '
+GIT_COMMITTER_NAME is: 
++ echo 'GIT_AUTHOR_NAME is: '
+GIT_AUTHOR_NAME is: 
++ echo 'GIT_COMMITTER_EMAIL is: '
+GIT_COMMITTER_EMAIL is: 
++ echo 'GIT_AUTHOR_EMAIL is: '
+GIT_AUTHOR_EMAIL is: 
+Finished: SUCCESS

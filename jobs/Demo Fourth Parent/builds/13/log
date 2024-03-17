@@ -1,0 +1,33 @@
+Started by user [8mha:////4E36cBknDxPllcGbtPw1kAWAbKHDdMvynZ8oM40wZOSQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Fourth
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/dp/.jenkins/workspace/Demo Fourth/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MrSharma050522/Jenkins-Demo-1.git # timeout=10
+Fetching upstream changes from https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/MrSharma050522/Jenkins-Demo-1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99c85bda1532d484de7c9ea8bef05fa86f26ac35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99c85bda1532d484de7c9ea8bef05fa86f26ac35 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 99c85bda1532d484de7c9ea8bef05fa86f26ac35 # timeout=10
+[Demo Fourth] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins16469494062267634156.sh
++ ls
+README.md
+index.html
++ cat index.html
+<html>
+  <body>
+    <h1>This is Sandeep Sharma at Jenkins Demo-1 Repository</h1>
+  </body>
+</html>
++ cat README.md
+# Jenkins-Demo-1
+This is a test text.
+Triggering a new build of [8mha:////4OI3cqnfJqUZbJDICOfVb/2ssH+y4tH/O3KtEdZ+YK3VAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwuoBn6WflJ+i6pufmqRgZumWklGfoAczzK/McAAAA=[0mDemo Fifth
+Finished: SUCCESS

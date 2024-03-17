@@ -1,0 +1,27 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Poll SCM
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git init /Users/dp/.jenkins/workspace/Demo Poll SCM # timeout=10
+Fetching upstream changes from https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/MrSharma050522/Jenkins-Demo-1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MrSharma050522/Jenkins-Demo-1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99c85bda1532d484de7c9ea8bef05fa86f26ac35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99c85bda1532d484de7c9ea8bef05fa86f26ac35 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[Demo Poll SCM] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins18044731538250710471.sh
++ echo 'Hello World Demo Poll SCM'
+Hello World Demo Poll SCM
+[Demo Poll SCM] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins4102110428679954649.sh
+[Demo Poll SCM] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins4136041609970691455.sh
+Finished: SUCCESS

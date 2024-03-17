@@ -1,0 +1,32 @@
+Started by remote host 127.0.0.1
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Fourth
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/dp/.jenkins/workspace/Demo Fourth/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MrSharma050522/Jenkins-Demo-1.git # timeout=10
+Fetching upstream changes from https://github.com/MrSharma050522/Jenkins-Demo-1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/MrSharma050522/Jenkins-Demo-1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99c85bda1532d484de7c9ea8bef05fa86f26ac35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99c85bda1532d484de7c9ea8bef05fa86f26ac35 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 99c85bda1532d484de7c9ea8bef05fa86f26ac35 # timeout=10
+[Demo Fourth] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins5870455910678314392.sh
++ ls
+README.md
+index.html
++ cat index.html
+<html>
+  <body>
+    <h1>This is Sandeep Sharma at Jenkins Demo-1 Repository</h1>
+  </body>
+</html>
++ cat README.md
+# Jenkins-Demo-1
+This is a test text.
+Finished: SUCCESS

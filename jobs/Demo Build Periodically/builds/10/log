@@ -1,0 +1,9 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Build Periodically
+[Demo Build Periodically] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins5449895372793659783.sh
++ echo 'Hello from Build Periodically Command'
+Hello from Build Periodically Command
++ date
+Fri Mar 15 00:57:07 IST 2024
+Finished: SUCCESS

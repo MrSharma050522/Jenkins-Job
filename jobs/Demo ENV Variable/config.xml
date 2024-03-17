@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command># name=Sandeep
+name=Deepak
+echo &quot;Hello World from ENV Variable&quot;
+echo &quot;Hello Sir ${name}&quot;
+echo &quot;Build Id is: ${BUILD_ID}&quot;
+echo &quot;Job Name is: ${JOB_NAME}&quot;
+echo &quot;BRANCH_NAME is: ${BRANCH_NAME}&quot;
+echo &quot;BRANCH_IS_PRIMARY is: ${BRANCH_IS_PRIMARY}&quot;
+echo &quot;CHANGE_ID is: ${CHANGE_ID}&quot;
+echo &quot;CHANGE_URL is: ${CHANGE_URL}&quot;
+echo &quot;CHANGE_TITLE is: ${CHANGE_TITLE}&quot;
+echo &quot;CHANGE_AUTHOR is: ${CHANGE_AUTHOR}&quot;
+echo &quot;CHANGE_AUTHOR_DISPLAY_NAME is: ${CHANGE_AUTHOR_DISPLAY_NAME}&quot;
+echo &quot;CHANGE_AUTHOR_EMAIL is: ${CHANGE_AUTHOR_EMAIL}&quot;
+echo &quot;CHANGE_TARGET is: ${CHANGE_TARGET}&quot;
+echo &quot;CHANGE_BRANCH is: ${CHANGE_BRANCH}&quot;
+echo &quot;CHANGE_FORK is: ${CHANGE_FORK}&quot;
+echo &quot;TAG_NAME is: ${TAG_NAME}&quot;
+echo &quot;TAG_TIMESTAMP is: ${TAG_TIMESTAMP}&quot;
+echo &quot;TAG_UNIXTIME is: ${TAG_UNIXTIME}&quot;
+echo &quot;TAG_DATE is: ${TAG_DATE}&quot;
+echo &quot;JOB_DISPLAY_URL is: ${JOB_DISPLAY_URL}&quot;
+echo &quot;RUN_DISPLAY_URL is: ${RUN_DISPLAY_URL}&quot;
+echo &quot;RUN_ARTIFACTS_DISPLAY_URL is: ${RUN_ARTIFACTS_DISPLAY_URL}&quot;
+echo &quot;RUN_CHANGES_DISPLAY_URL is: ${RUN_CHANGES_DISPLAY_URL}&quot;
+echo &quot;RUN_TESTS_DISPLAY_URL is: ${RUN_TESTS_DISPLAY_URL}&quot;
+echo &quot;CI is: ${CI}&quot;
+echo &quot;BUILD_NUMBER is: ${BUILD_NUMBER}&quot;
+echo &quot;BUILD_ID is: ${BUILD_ID}&quot;
+echo &quot;BUILD_DISPLAY_NAME is: ${BUILD_DISPLAY_NAME}&quot;
+echo &quot;JOB_NAME is: ${JOB_NAME}&quot;
+echo &quot;JOB_BASE_NAME is: ${JOB_BASE_NAME}&quot;
+echo &quot;BUILD_TAG is: ${BUILD_TAG}&quot;
+echo &quot;EXECUTOR_NUMBER is: ${EXECUTOR_NUMBER}&quot;
+echo &quot;NODE_NAME is: ${NODE_NAME}&quot;
+echo &quot;NODE_LABELS is: ${NODE_LABELS}&quot;
+echo &quot;WORKSPACE is: ${WORKSPACE}&quot;
+echo &quot;WORKSPACE_TMP is: ${WORKSPACE_TMP}&quot;
+echo &quot;JENKINS_HOME is: ${JENKINS_HOME}&quot;
+echo &quot;JENKINS_URL is: ${JENKINS_URL}&quot;
+echo &quot;BUILD_URL is: ${BUILD_URL}&quot;
+echo &quot;JOB_URL is: ${JOB_URL}&quot;
+echo &quot;GIT_COMMIT is: ${GIT_COMMIT}&quot;
+echo &quot;GIT_PREVIOUS_COMMIT is: ${GIT_PREVIOUS_COMMIT}&quot;
+echo &quot;GIT_PREVIOUS_SUCCESSFUL_COMMIT is: ${GIT_PREVIOUS_SUCCESSFUL_COMMIT}&quot;
+echo &quot;GIT_BRANCH is: ${GIT_BRANCH}&quot;
+echo &quot;GIT_LOCAL_BRANCH is: ${GIT_LOCAL_BRANCH}&quot;
+echo &quot;GIT_CHECKOUT_DIR is: ${GIT_CHECKOUT_DIR}&quot;
+echo &quot;GIT_URL is: ${GIT_URL}&quot;
+echo &quot;GIT_COMMITTER_NAME is: ${GIT_COMMITTER_NAME}&quot;
+echo &quot;GIT_AUTHOR_NAME is: ${GIT_AUTHOR_NAME}&quot;
+echo &quot;GIT_COMMITTER_EMAIL is: ${GIT_COMMITTER_EMAIL}&quot;
+echo &quot;GIT_AUTHOR_EMAIL is: ${GIT_AUTHOR_EMAIL}&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

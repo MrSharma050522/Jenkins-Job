@@ -1,0 +1,13 @@
+Started by user [8mha:////4OCkkyCxMUVvGh8vTb3SG1nI566Z998pBK1JFg/tBtvAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL9lNTUgsRsAOX9/sDBAAAA[0mDeepak Pancholi
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Demo Second
+[Demo Second] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins6057542440516628282.sh
++ echo 'Hello World from Demo Second'
+Hello World from Demo Second
++ whoami
+dp
++ pwd
+/Users/dp/.jenkins/workspace/Demo Second
++ echo 'Update by Deepak Pancholi'
+Update by Deepak Pancholi
+Finished: SUCCESS

@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>name</name>
+          <defaultValue>Sandeep Sharma</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>readyToBuild</name>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>deployTo</name>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Test</string>
+              <string>Staging</string>
+              <string>Pre-Prod</string>
+              <string>Prod</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>password</name>
+          <defaultValue>{AQAAABAAAAAQdhr4yR3srhCW14/vO8FUitc05z4GMklJPXcUIJpz6J4=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+        <hudson.model.TextParameterDefinition>
+          <name>multiLineStringParam</name>
+          <defaultValue>This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma
+This is Sandeep Sharma</defaultValue>
+          <trim>false</trim>
+        </hudson.model.TextParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;Hello Sir! ${name}&quot;
+echo &quot;Ready to Build: ${readyToBuild}&quot;
+echo &quot;Deploy to : ${deployTo}&quot;
+echo &quot;Password to : ${password}&quot;
+echo &quot;MultiLine String Param to : ${multiLineStringParam}&quot;
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,12 @@
+Started on 17 Mar 2024, 15:41:53
+Using strategy: Default
+[poll] Last Built Revision: Revision 4aec034ed027acebc314b00ad6aeee5b6c2ea0d8 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git ls-remote -h -- https://github.com/MrSharma050522/Jenkins-Demo-1.git # timeout=10
+Found 1 remote heads on https://github.com/MrSharma050522/Jenkins-Demo-1.git
+[poll] Latest remote head revision on refs/heads/main is: 4aec034ed027acebc314b00ad6aeee5b6c2ea0d8 - already built by 2
+Done. Took 1.1 sec
+No changes

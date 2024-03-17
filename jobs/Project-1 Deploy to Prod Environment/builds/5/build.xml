@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>sandeep</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Project-1 Deploy To Test Environment</upstreamProject>
+            <upstreamUrl>fe22926b-bdb5-4845-9985-c0496de518b4/job/Project-1%20Deploy%20To%20Test%20Environment/</upstreamUrl>
+            <upstreamBuild>8</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>Project-1 Build Project</upstreamProject>
+                <upstreamUrl>job/Project-1%20Build%20Project/</upstreamUrl>
+                <upstreamBuild>8</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>sandeep</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+  </actions>
+  <queueId>49</queueId>
+  <timestamp>1710620877780</timestamp>
+  <startTime>1710620877811</startTime>
+  <result>SUCCESS</result>
+  <duration>10939</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/Project-1 Deploy to Prod Environment</workspace>
+  <hudsonVersion>2.440.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
