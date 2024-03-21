@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>sandeep</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>2</int>
+        </entry>
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>HelloWorld-DeployInTest</upstreamProject>
+            <upstreamUrl>d2bf234c-3732-43de-afc7-db4b20355aac/job/HelloWorld-DeployInTest/</upstreamUrl>
+            <upstreamBuild>2</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>HelloWorld-Build</upstreamProject>
+                <upstreamUrl>job/HelloWorld-Build/</upstreamUrl>
+                <upstreamBuild>2</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>HelloWorld-Test</upstreamProject>
+                    <upstreamUrl>job/HelloWorld-Test/</upstreamUrl>
+                    <upstreamBuild>25</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>sandeep</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>HelloWorld-DeployInTest</upstreamProject>
+            <upstreamUrl>06534499-1327-46ce-bb31-6dc1df1c6010/job/HelloWorld-DeployInTest/</upstreamUrl>
+            <upstreamBuild>2</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>HelloWorld-Build</upstreamProject>
+                <upstreamUrl>job/HelloWorld-Build/</upstreamUrl>
+                <upstreamBuild>2</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>HelloWorld-Test</upstreamProject>
+                    <upstreamUrl>job/HelloWorld-Test/</upstreamUrl>
+                    <upstreamBuild>25</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause reference="../../../../../../../../entry[2]/hudson.model.Cause_-UpstreamCause/upstreamCauses/hudson.model.Cause_-UpstreamCause/upstreamCauses/hudson.model.Cause_-UpstreamCause/upstreamCauses/hudson.model.Cause_-UserIdCause"/>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+  </actions>
+  <queueId>44</queueId>
+  <timestamp>1710847717513</timestamp>
+  <startTime>1710847717539</startTime>
+  <result>SUCCESS</result>
+  <duration>293</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd</workspace>
+  <hudsonVersion>2.440.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

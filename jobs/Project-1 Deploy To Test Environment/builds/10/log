@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4ML8hHdAYH7HhDMunbi+H5vGVnuci4W7XcZ6lRSIRFUAAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/az8JP2Aovys1OQSXUNVIwOn0sycFCANFdMHAEV+Do3WAAAA[0mProject-1 Build Project" build number [8mha:////4IK2cqBDHVb9bl5CXLDxayAf0GKT7JqpnN5l+w3cID65AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZl/az8JP2Aovys1OQSXUNVIwOn0sycFCANFdM3NAAApWwU9tgAAAA=[0m10
+originally caused by:
+ Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Project-1 Deploy To Test Environment
+[Project-1 Deploy To Test Environment] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins896900488195867307.sh
++ sleep 10
++ echo 'Deploying to test environment'
+Deploying to test environment
+Triggering a new build of [8mha:////4Mqq+wg26CeviKNUMyYbD0XbKt2NXBizigTg1aDyLoCHAAAAuR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgYj/az8JP2Aovys1OQSXUNVIwOX1IKc/EogoyQfSABlUoCUa15ZZlF+Xm5qXok+AJAIGuHnAAAA[0mProject-1 Deploy to Prod Environment
+Finished: SUCCESS

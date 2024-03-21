@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>sandeep</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@722.v0662a_9b_e22a_c"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>hello-world-0.0.1-SNAPSHOT.war</string>
+          <string>3c8e4f4923a9e26e30cbe5ee45e1464e</string>
+        </entry>
+        <entry>
+          <string>hello-world-0.0.1-SNAPSHOT.pom</string>
+          <string>d185531f41cb6308cdc12007e6bdedd4</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>117</queueId>
+  <timestamp>1711020870060</timestamp>
+  <startTime>1711020870093</startTime>
+  <result>SUCCESS</result>
+  <duration>25301</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest</workspace>
+  <hudsonVersion>2.440.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

@@ -1,0 +1,65 @@
+Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/HelloWorld-Test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/dp/.jenkins/workspace/HelloWorld-Test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/coolgourav147/spring-boot-war-example # timeout=10
+Fetching upstream changes from https://github.com/coolgourav147/spring-boot-war-example
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/coolgourav147/spring-boot-war-example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7e63546969065960f992210e1a86ad6e8cb9db5e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7e63546969065960f992210e1a86ad6e8cb9db5e # timeout=10
+Commit message: "channel members script added"
+ > git rev-list --no-walk 7e63546969065960f992210e1a86ad6e8cb9db5e # timeout=10
+Parsing POMs
+Established TCP socket on 49165
+[HelloWorld-Test] $ java -cp /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.7.0.jar:/Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging jenkins.maven3.agent.Maven35Main /Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/dp/.jenkins/war/WEB-INF/lib/remoting-3206.vb_15dcf73f6a_9.jar /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 49165
+Exception in thread "main" java.lang.UnsupportedClassVersionError: hudson/remoting/Launcher has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.findClassInternal(ClassRealm.java:313)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClassFromSelf(ClassRealm.java:432)
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:42)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at jenkins.maven3.agent.Maven35Main.main(Maven35Main.java:136)
+	at jenkins.maven3.agent.Maven35Main.main(Maven35Main.java:66)
+ERROR: ================================================================================
+ERROR: Invalid project setup: Connection reset
+ERROR: Processing failed due to a bug in the code. Please report this to the issue tracker (https://jenkins.io/redirect/report-an-issue).
+java.lang.NullPointerException: Cannot invoke "hudson.model.JDK.getName()" because "jdk" is null
+	at hudson.maven.AbstractMavenProcessFactory.newProcess(AbstractMavenProcessFactory.java:308)
+	at hudson.maven.ProcessCache.get(ProcessCache.java:237)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:802)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1895)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:543)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+project=hudson.maven.MavenModuleSet@597cd8ac[HelloWorld-Test]
+project.getModules()=[hudson.maven.MavenModule@75d08207[HelloWorld-Test/com.springhow.example:hello-world][HelloWorld-Test/com.springhow.example:hello-world][relativePath:]]
+project.getRootModule()=hudson.maven.MavenModule@75d08207[HelloWorld-Test/com.springhow.example:hello-world][HelloWorld-Test/com.springhow.example:hello-world][relativePath:]
+FATAL: Cannot invoke "hudson.model.JDK.getName()" because "jdk" is null
+java.lang.NullPointerException: Cannot invoke "hudson.model.JDK.getName()" because "jdk" is null
+	at hudson.maven.AbstractMavenProcessFactory.newProcess(AbstractMavenProcessFactory.java:308)
+	at hudson.maven.ProcessCache.get(ProcessCache.java:237)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:802)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1895)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:543)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

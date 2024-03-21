@@ -1,0 +1,11 @@
+Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/HelloWorld-Test
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_osx-x64_bin.dmg
+Downloading -1 bytes
+Installing /Users/dp/.jenkins/tools/hudson.model.JDK/JDK_9.4/jdk.dmg
+$ hdiutil attach -puppetstrings -mountpoint /Users/dp/.jenkins/tools/hudson.model.JDK/jdk.dmg7469472547090583106 /Users/dp/.jenkins/tools/hudson.model.JDK/JDK_9.4/jdk.dmg
+hdiutil: attach failed - image not recognised
+ERROR: Failed to install JDK. Exit code=1
+Finished: FAILURE

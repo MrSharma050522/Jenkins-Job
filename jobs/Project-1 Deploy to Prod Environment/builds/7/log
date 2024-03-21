@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4G2uqltTG5KFWxfS9azrkU4R/4Jx5bdb6TNWRc86NZ1wAAAAuR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgYj/az8JP2Aovys1OQSXUNVIwOX1IKc/EogIyQfRKQWlwAp17yyzKL8vNzUvBJ9AMZiR13nAAAA[0mProject-1 Deploy To Test Environment" build number [8mha:////4NOFm0nSjOdKEbjWJ55u99ErfnIhm3Bg9zW66bdtBEIlAAAAux+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYT/az8JP2Aovys1OQSXUNVIwOX1IKc/EogIyQfRKQWlwAp17yyzKL8vNzUvBJ9QwMATbHdC+kAAAA=[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4ML8hHdAYH7HhDMunbi+H5vGVnuci4W7XcZ6lRSIRFUAAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/az8JP2Aovys1OQSXUNVIwOn0sycFCANFdMHAEV+Do3WAAAA[0mProject-1 Build Project" build number [8mha:////4IK2cqBDHVb9bl5CXLDxayAf0GKT7JqpnN5l+w3cID65AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZl/az8JP2Aovys1OQSXUNVIwOn0sycFCANFdM3NAAApWwU9tgAAAA=[0m10
+ originally caused by:
+  Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/Project-1 Deploy to Prod Environment
+[Project-1 Deploy to Prod Environment] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins5471702802969325900.sh
++ sleep 10
++ echo 'Deploying to Prod environment'
+Deploying to Prod environment
+Finished: SUCCESS

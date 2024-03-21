@@ -1,0 +1,10 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.23">
+  <queueId>-1</queueId>
+  <timestamp>1710841456747</timestamp>
+  <startTime>0</startTime>
+  <duration>0</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/HelloWorld-Test</workspace>
+</hudson.maven.MavenBuild>

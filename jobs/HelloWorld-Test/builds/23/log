@@ -1,0 +1,45 @@
+Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building in workspace /Users/dp/.jenkins/workspace/HelloWorld-Test
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.6/apache-maven-3.9.6-bin.zip to /Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven on Jenkins
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/dp/.jenkins/workspace/HelloWorld-Test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/coolgourav147/spring-boot-war-example # timeout=10
+Fetching upstream changes from https://github.com/coolgourav147/spring-boot-war-example
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git fetch --tags --force --progress -- https://github.com/coolgourav147/spring-boot-war-example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7e63546969065960f992210e1a86ad6e8cb9db5e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7e63546969065960f992210e1a86ad6e8cb9db5e # timeout=10
+Commit message: "channel members script added"
+ > git rev-list --no-walk 7e63546969065960f992210e1a86ad6e8cb9db5e # timeout=10
+Parsing POMs
+Established TCP socket on 49886
+[HelloWorld-Test] $ /Users/dp/.jenkins/tools/hudson.model.JDK/JDK_9.4/bin/java -cp /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.7.0.jar:/Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging jenkins.maven3.agent.Maven35Main /Users/dp/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/dp/.jenkins/war/WEB-INF/lib/remoting-3206.vb_15dcf73f6a_9.jar /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/dp/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 49886
+ERROR: Failed to parse POMs
+java.io.IOException: Cannot run program "/Users/dp/.jenkins/tools/hudson.model.JDK/JDK_9.4/bin/java" (in directory "/Users/dp/.jenkins/workspace/HelloWorld-Test"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:994)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+	at hudson.maven.AbstractMavenProcessFactory.newProcess(AbstractMavenProcessFactory.java:282)
+	at hudson.maven.ProcessCache.get(ProcessCache.java:237)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:802)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1895)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:543)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 13 more
+Finished: FAILURE
