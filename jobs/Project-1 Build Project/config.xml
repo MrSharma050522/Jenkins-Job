@@ -20,7 +20,7 @@ echo &quot;Building Project&quot;</command>
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>Project-1 Deploy To Test Environment, Project-1 Code Quality</childProjects>
+      <childProjects>Project-1 Deploy To Test Environment,Project-1 Code Quality</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

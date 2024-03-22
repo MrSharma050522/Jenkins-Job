@@ -1,0 +1,175 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>isMale</string>
+        <string>city</string>
+        <string>person</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>Hello World PAC (Pipeline As Code)</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>person</name>
+          <description>Who Are You?</description>
+          <defaultValue>Rahul Arora</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>isMale</name>
+          <description>Are You A Male</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>city</name>
+          <description>Select Your City</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Azamgarh</string>
+              <string>Varanasi</string>
+              <string>Gorakhpur</string>
+              <string>Mau</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3883.vb_3ff2a_e3eea_f">
+    <script>pipeline {
+    agent any
+    environment {
+        name = &quot;Sandeep Sharma&quot;
+    }
+    parameters {
+        string(name: &quot;person&quot;, defaultValue: &quot;Rahul Arora&quot;, description: &quot;Who Are You?&quot;)
+        booleanParam(name: &quot;isMale&quot;, defaultValue: true, description: &quot;Are You A Male&quot;)
+        choice(name: &quot;city&quot;, choices: [&quot;Azamgarh&quot;, &quot;Varanasi&quot;, &quot;Gorakhpur&quot;, &quot;Mau&quot;], description: &quot;Select Your City&quot;)
+    }
+    stages {
+        stage(&apos;Test&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                echo &apos;Testing Code&apos;
+                // sleep 5
+                echo &quot;Testing Done&quot;
+            }
+        }
+        stage(&apos;Build&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                echo &apos;Making Build&apos;
+                // sleep 5
+                echo &quot;Build Prepared&quot;
+            }
+        }
+        stage(&apos;Depoy In Test&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                echo &apos;Deploying In Test&apos;
+                // sleep 5
+                echo &quot;Test Deployment Completed&quot;
+            }
+        }
+        stage(&apos;User Input To Continue Next Stage&apos;) {
+            options {
+                timestamps()
+            }
+            input {
+                message &quot;Should We Continue To Production And Next Step?&quot;
+                ok &quot;Yes! We Should&quot;
+            }
+            steps {
+                echo &quot;Continue Or Not&quot;
+            }
+        }
+        stage(&apos;Deploy In Prod&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                echo &apos;Deploying In Prod&apos;
+                // sleep 7
+                echo &quot;Prod Deployment Completed&quot;
+            }
+        }
+        stage(&apos;Running A Command&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                // sh &apos;date&apos;
+                // sh &apos;date &quot;+%Y-%m-%d %H:%M:%S&quot;&apos;
+                // sh &quot;pwd&quot;
+                sh &apos;&apos;&apos;
+                    ls
+                    pwd
+                    date
+                    cal 2024
+                    date &quot;+%Y-%m-%d %H:%M:%S&quot;
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;Print Environmnet Variable&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                sh &apos;echo &quot;${BUILD_ID}&quot;&apos;
+            }
+        }
+        stage(&apos;Stage Based Environment Variable&apos;) {
+            options {
+                timestamps()
+            }
+            environment {
+                username = &quot;Deepak Pancholi&quot;
+            }
+            steps {
+                // sh &apos;echo &quot;${BUILD_ID}&quot;&apos;
+                sh &apos;echo &quot;${name}&quot;&apos;
+                sh &apos;echo &quot;${username}&quot;&apos;
+            }
+        }
+        stage(&apos;User Defined Environmnet Variable&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                // sh &apos;echo &quot;${BUILD_ID}&quot;&apos;
+                sh &apos;echo &quot;${name}&quot;&apos;
+                sh &apos;echo &quot;${username}&quot;&apos;
+            }
+        }
+        stage(&apos;User Input As Parameter&apos;) {
+            options {
+                timestamps()
+            }
+            steps {
+                sh &apos;echo &quot;${person}&quot;&apos;
+                sh &apos;echo &quot;${isMale}&quot;&apos;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
