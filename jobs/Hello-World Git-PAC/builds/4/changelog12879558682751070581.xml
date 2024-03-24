@@ -1,0 +1,10 @@
+commit 78ed1a808c3e01efb3484fea6fd471a42df736b6
+tree 78b8dbec0a7389c594fe4ab1ac315eb0c2fa2abd
+parent 7977e7bd6b1f65be8d49288743062d1489c756a6
+author Sandeep Sharma <sandeepsharma@naraci.com> 2024-03-24 18:24:42 +0530
+committer Sandeep Sharma <sandeepsharma@naraci.com> 2024-03-24 18:24:42 +0530
+
+    making other jenkinsfile
+
+
+:000000 100644 0000000000000000000000000000000000000000 ea16d43b02318ee9f4b9bc9df943ffa82d31c9fb A	Jenkins-File-PAC-1
