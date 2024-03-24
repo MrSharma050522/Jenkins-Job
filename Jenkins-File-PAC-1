@@ -46,7 +46,6 @@ pipeline {
             }
             steps {
                 echo 'Deploying In Prod'
-                sleep 3
                 echo "Prod Deployment Completed"
             }
         }
