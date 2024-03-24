@@ -62,7 +62,7 @@
             }
             steps {
                 echo &apos;Testing Code&apos;
-                // sleep 5
+                sleep 2
                 echo &quot;Testing Done&quot;
             }
         }
@@ -72,17 +72,17 @@
             }
             steps {
                 echo &apos;Making Build&apos;
-                // sleep 5
+                sleep 2
                 echo &quot;Build Prepared&quot;
             }
         }
-        stage(&apos;Depoy In Test&apos;) {
+        stage(&apos;Deploy In Test&apos;) {
             options {
                 timestamps()
             }
             steps {
                 echo &apos;Deploying In Test&apos;
-                // sleep 5
+                sleep 2
                 echo &quot;Test Deployment Completed&quot;
             }
         }
@@ -91,7 +91,7 @@
                 timestamps()
             }
             input {
-                message &quot;Should We Continue To Production And Next Step?&quot;
+                message &quot;Should We Continue To Prod And Further?&quot;
                 ok &quot;Yes! We Should&quot;
             }
             steps {
@@ -104,7 +104,7 @@
             }
             steps {
                 echo &apos;Deploying In Prod&apos;
-                // sleep 7
+                sleep 3
                 echo &quot;Prod Deployment Completed&quot;
             }
         }
@@ -164,6 +164,17 @@
                 sh &apos;echo &quot;${person}&quot;&apos;
                 sh &apos;echo &quot;${isMale}&quot;&apos;
             }
+        }
+    }
+    post{
+        always {
+            echo &quot;Running Post Actions Always&quot;
+        }
+        success {
+            echo &quot;Running Post Actions On Success&quot;
+        }
+        failure {
+            echo &quot;Running Post Actions On Failure&quot;
         }
     }
 }
