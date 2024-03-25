@@ -1,0 +1,28 @@
+Branch indexing
+[8mha:////4OI+S/kzWizAECfIxUEJL/96rPDpczje5UHUlkkwGpB3AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRfaYKIAADDcdIIjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+[8mha:////4BWJlNlxe88QAYfqNE4+roqnyrQzsJo46jv8Ua8f1Sv4AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRfaYKIKQCEpdZDjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 44 remaining (2 over budget). Next quota of 60 in 47 min. Sleeping for 5 min 30 sec.
+[8mha:////4PzWS0XrsG673vNkOWSdan1YTNzbuCuTOxb01tHbuXRMAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRfaYKIGQA+9N/ajgAAAA==[0mJenkins is attempting to evenly distribute GitHub API requests. To configure a different rate limiting strategy, such as having Jenkins restrict GitHub API requests only when near or above the GitHub rate limit, go to "GitHub API usage" under "Configure System" in the Jenkins settings.
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$LocalChecker.waitUntilRateLimit(ApiRateLimitChecker.java:327)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$LocalChecker.checkRateLimit(ApiRateLimitChecker.java:273)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$RateLimitCheckerAdapter.checkRateLimit(ApiRateLimitChecker.java:246)
+	at org.kohsuke.github.GitHubRateLimitChecker.checkRateLimit(GitHubRateLimitChecker.java:144)
+Caused: java.io.InterruptedIOException: sleep interrupted
+	at org.kohsuke.github.GitHubRateLimitChecker.checkRateLimit(GitHubRateLimitChecker.java:158)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:460)
+Caused: org.kohsuke.github.HttpException: Server returned HTTP response code: -1, message: 'null' for URL: https://api.github.com/repos/MrSharma050522/Jenkins-Blue-Ocean-PAC/git/refs/heads/main
+	at org.kohsuke.github.GitHubClient.interpretApiError(GitHubClient.java:669)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:480)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:427)
+	at org.kohsuke.github.Requester.fetch(Requester.java:85)
+	at org.kohsuke.github.GHRef.read(GHRef.java:111)
+	at org.kohsuke.github.GHRepository.getRef(GHRepository.java:1981)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieve(GitHubSCMSource.java:1672)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:581)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:99)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:311)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

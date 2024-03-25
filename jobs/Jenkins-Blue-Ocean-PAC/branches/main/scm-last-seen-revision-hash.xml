@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl plugin="git@5.2.1">
+  <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@1781.va_153cda_09d1b_">
+    <name>main</name>
+  </head>
+  <hash>497bd9f4e49ea25ba8ee2deac8f8a211a2266872</hash>
+</jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl>

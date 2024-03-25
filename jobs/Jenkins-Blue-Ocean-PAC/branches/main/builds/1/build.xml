@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.1152.v6f101e97dd77"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>213</queueId>
+  <timestamp>1711366214643</timestamp>
+  <startTime>1711366214671</startTime>
+  <result>FAILURE</result>
+  <duration>130067</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

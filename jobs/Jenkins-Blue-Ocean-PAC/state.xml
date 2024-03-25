@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1152.v6f101e97dd77">
+  <sourceActions>
+    <entry>
+      <string>blueocean</string>
+      <list>
+        <org.jenkinsci.plugins.github__branch__source.GitHubRepoMetadataAction plugin="github-branch-source@1781.va_153cda_09d1b_"/>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@689.v237b_6d3a_ef7f"/>
+        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@1781.va_153cda_09d1b_">
+          <url>https://github.com/MrSharma050522/Jenkins-Blue-Ocean-PAC</url>
+        </org.jenkinsci.plugins.github__branch__source.GitHubLink>
+        <org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch plugin="github-branch-source@1781.va_153cda_09d1b_">
+          <repoOwner>MrSharma050522</repoOwner>
+          <repository>Jenkins-Blue-Ocean-PAC</repository>
+          <defaultBranch>main</defaultBranch>
+        </org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

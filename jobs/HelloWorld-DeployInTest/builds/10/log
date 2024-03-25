@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4EU0tp+4qsIoLORqX+BRluQUsZ2LHTf/0NdDS0aq1A+DAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH2P1Jyc/PD8opwUXafSzJwUfQBdpvswywAAAA==[0mHelloWorld-Build" build number [8mha:////4IR5UZck+3gJuDtYEYlz5ua1JGLQUOu/318/GGK7QFccAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JH2P1Jyc/PD8opwUXafSzJwUfUMDACXkGc7NAAAA[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4LV7B1C/twrb4BSc52Dq8EWx5GwmY9vN1M9S4foV/HUEAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2P1Jyc/PD8opwU3ZDU4hJ9AI0yGg/KAAAA[0mHelloWorld-Test" build number [8mha:////4Fx7TQcfA09mNj6u9DQrXzZzo+uEwCaGWsQn6iQb1iHrAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JH2P1Jyc/PD8opwU3ZDU4hJ9YyMAUvTrL8wAAAA=[0m32
+ originally caused by:
+  Started by user [8mha:////4CGGAjS2fRjIlGxHoZ8gCYGxwbkm0C+DST20OMvUTwa4AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL94sS8lNTUAgBTyMdAwgAAAA==[0mSandeep Sharma
+Running as SYSTEM
+Building on the built-in node in workspace /Users/dp/.jenkins/workspace/HelloWorld-DeployInTest
+Copied 1 artifact from "[8mha:////4NqOwTEEdiWS2AZ3+h9wYsoqMXlkNQKFrmD+lojQPRuTAAAAlx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGEQ08/KT9L3SM3JyQ/PL8pJ0XUqzcxJ0QcAblS0IZsAAAA=[0mHelloWorld-Build" build number [8mha:////4IqmQLBt7G7AtJ1POl+WxIywyKGCQ3zp/36ERAe8vMjhAAAAmh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmGQ1M/KT9L3SM3JyQ/PL8pJ0XUqzcxJ0Tc00AcABj3AM54AAAA=[0m10
+Copied 2 artifacts from "[8mha:////4Ax1BW883+CIig1PS0Howj/G0AUfhapZpGzQ7bp9TYBXAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQK2Gw0M/KT9L3SM3JyQ/PL8pJ0XUqzcxJ0U/Oz9UrLgAZmZFfrpdakZhbkJOqkgFSplsOUqcPAPLhikm9AAAA[0mHelloWorld-Build » hello-world" build number [8mha:////4IQnFbjm08Q8yPFvUOQTAZo7ja+LphYlCEiKqilgw3/hAAAAth+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmGw1s/KT9L3SM3JyQ/PL8pJ0XUqzcxJ0U/Oz9UrLgAZmZFfrpdakZhbkJOqkgFSplsOUqdvaKAPAL6I56zAAAAA[0m10
+[HelloWorld-DeployInTest] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins9807601277914467029.sh
++ ls
+com.springhow.example
+target
++ pwd
+/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest
+Archiving artifacts
+[DeployPublisher][INFO] Attempting to deploy 2 war file(s)
+[DeployPublisher][INFO] Deploying /Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war to container Tomcat 9.x Remote with context /app
+  Redeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+  Undeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+  Deploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+[DeployPublisher][INFO] Deploying /Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/target/hello-world-0.0.1-SNAPSHOT.war to container Tomcat 9.x Remote with context /app
+  Redeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/target/hello-world-0.0.1-SNAPSHOT.war]
+  Undeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/target/hello-world-0.0.1-SNAPSHOT.war]
+  Deploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInTest/target/hello-world-0.0.1-SNAPSHOT.war]
+Triggering a new build of [8mha:////4FTZDE6MAleb16dRb4WE6TO6aoExy8r1RL5x7tELqNbdAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JH2P1Jyc/PD8opwUXZfUgpz8Ss+8gKL8FH0An783uNIAAAA=[0mHelloWorld-DeployInProd
+Finished: SUCCESS
