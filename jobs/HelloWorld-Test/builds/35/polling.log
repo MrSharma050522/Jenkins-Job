@@ -1,0 +1,12 @@
+Started on 27 Mar 2024, 10:52:00
+Using strategy: Default
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3 (Apple Git-145)'
+ > git ls-remote -h -- https://github.com/MrSharma050522/Jenkins-Job-PAC-Maven-Project.git # timeout=10
+Found 1 remote heads on https://github.com/MrSharma050522/Jenkins-Job-PAC-Maven-Project.git
+[poll] Latest remote head revision on refs/heads/main is: 3d2e353927b618d8c6d83be5cb276eb1dc026d15
+Done. Took 0.88 sec
+Changes found

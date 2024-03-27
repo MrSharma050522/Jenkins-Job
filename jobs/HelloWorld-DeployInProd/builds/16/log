@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:////4FOar/0aG15h5DLeBafpUWvmFZPEgLDQrmDW92OtnUNBAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JH2P1Jyc/PD8opwUXZfUgpz8Ss+8kNTiEn0APD6H39IAAAA=[0mHelloWorld-DeployInTest" build number [8mha:////4JXLTy76c0RXawJT3HFDG5Iv8H2UIi0Sbl/q4ebFalt6AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ5/az8JH2P1Jyc/PD8opwUXZfUgpz8Ss+8kNTiEn1DEwAfV5kk1AAAAA==[0m14
+originally caused by:
+ Started by upstream project "[8mha:////4EU0tp+4qsIoLORqX+BRluQUsZ2LHTf/0NdDS0aq1A+DAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH2P1Jyc/PD8opwUXafSzJwUfQBdpvswywAAAA==[0mHelloWorld-Build" build number [8mha:////4HjrTZ6U9ubyHGI3PRFbUrn8bxJ7CCYV7u4grTs0L3RbAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JH2P1Jyc/PD8opwUXafSzJwUfUMTADwgdMnNAAAA[0m14
+ originally caused by:
+  Started by upstream project "[8mha:////4LV7B1C/twrb4BSc52Dq8EWx5GwmY9vN1M9S4foV/HUEAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2P1Jyc/PD8opwU3ZDU4hJ9AI0yGg/KAAAA[0mHelloWorld-Test" build number [8mha:////4HqArPHyuYl3ZpFSNqcIz32ozKUSNHPplHRVz67W6iMGAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JH2P1Jyc/PD8opwU3ZDU4hJ9YzMASzCGKMwAAAA=[0m36
+  originally caused by:
+   Started by an SCM change
+Running as SYSTEM
+Building on the built-in node in workspace /Users/dp/.jenkins/workspace/HelloWorld-DeployInProd
+Copied 2 artifacts from "[8mha:////4P7aBYeJAVMfWm2U2f4ESvWVhV5cvD4JHJVepEIKerssAAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQL2GQ1c/KT9L3SM3JyQ/PL8pJ0XVJLcjJr/TMC0ktLtEHAIPGUCyiAAAA[0mHelloWorld-DeployInTest" build number [8mha:////4Mi4FeSlUTR62JTSVqzcHPLwFtV/5ZrWIsfaCihQEj53AAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmFQ0M/KT9L3SM3JyQ/PL8pJ0XVJLcjJr/TMC0ktLtE3NNEHAP2iO6OlAAAA[0m14
+[HelloWorld-DeployInProd] $ /bin/sh -xe /var/folders/9n/qygcn9tx1zjfn09ff08kbb380000gn/T/jenkins6458707100142320507.sh
++ ls
+com.springhow.example
+target
++ pwd
+/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd
+[DeployPublisher][INFO] Attempting to deploy 2 war file(s)
+[DeployPublisher][INFO] Deploying /Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war to container Tomcat 9.x Remote with context /prod-app
+  Redeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+  Undeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+  Deploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/com.springhow.example/hello-world/0.0.1-SNAPSHOT/hello-world-0.0.1-SNAPSHOT.war]
+[DeployPublisher][INFO] Deploying /Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/target/hello-world-0.0.1-SNAPSHOT.war to container Tomcat 9.x Remote with context /prod-app
+  Redeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/target/hello-world-0.0.1-SNAPSHOT.war]
+  Undeploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/target/hello-world-0.0.1-SNAPSHOT.war]
+  Deploying [/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd/target/hello-world-0.0.1-SNAPSHOT.war]
+Finished: SUCCESS

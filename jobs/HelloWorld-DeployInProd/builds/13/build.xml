@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>HelloWorld-DeployInTest</upstreamProject>
+            <upstreamUrl>job/HelloWorld-DeployInTest/</upstreamUrl>
+            <upstreamBuild>11</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>HelloWorld-Build</upstreamProject>
+                <upstreamUrl>job/HelloWorld-Build/</upstreamUrl>
+                <upstreamBuild>11</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>HelloWorld-Test</upstreamProject>
+                    <upstreamUrl>job/HelloWorld-Test/</upstreamUrl>
+                    <upstreamBuild>33</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>sandeep</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@722.v0662a_9b_e22a_c"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>hello-world-0.0.1-SNAPSHOT.war</string>
+          <string>29fea7b055c70e6379e6b83603fab2d9</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>275</queueId>
+  <timestamp>1711516437298</timestamp>
+  <startTime>1711516437330</startTime>
+  <result>SUCCESS</result>
+  <duration>15941</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/dp/.jenkins/workspace/HelloWorld-DeployInProd</workspace>
+  <hudsonVersion>2.440.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
